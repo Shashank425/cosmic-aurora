@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { NavBarTopComponent } from './nav-bar-top/nav-bar-top.component';
+import { WelcomeAreaComponent } from './welcome-area/welcome-area.component';
+import { FormPageComponent } from './form-page/form-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    NavBarTopComponent
+    NavBarTopComponent,
+    WelcomeAreaComponent,
+    FormPageComponent
   ],
   imports: [
     BrowserModule,

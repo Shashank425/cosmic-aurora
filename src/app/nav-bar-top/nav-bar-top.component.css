@@ -33,8 +33,9 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: orange;
+    color: orangered;
     text-decoration: underline;
+    font-size: 26px;
 }
 
 nav .nav-align-right {
@@ -44,11 +45,20 @@ nav .nav-align-right {
 
 nav button {
     padding: 9px;
-    background-color: orange;
+    margin-right: 10px;
+    background-color: orangered;
     color: black;
     font-weight: bold;
-    border-color: white;
-    border-radius: 12px;
+    border-color: black;
+    border-radius: 16px;
     font-size: 18px;
-    box-shadow: 5px;
+}
+
+nav button:hover {
+    background-color: orange;
+    scale: 1.1;
+}
+
+nav button:active {
+    scale: 1;
 }

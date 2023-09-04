@@ -1,0 +1,46 @@
+.welcome-area {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.welcome-right-para {
+    height: 60%;
+    width: 50%;
+    padding: 0 30px 0 30px;
+    transition: transform 1s ease-in-out;
+    justify-content: left;
+}
+
+.welcome-left-para {
+    height: 60%;
+    width: 50%;
+    padding: 0 30px 0 30px;
+    transition: transform 1s ease-in-out;
+    justify-content: right;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.welcome-area:hover .welcome-right-para {
+    transform: translateX(100%);
+}
+
+.welcome-area:hover .welcome-left-para {
+    transform: translateX(-100%);
+}

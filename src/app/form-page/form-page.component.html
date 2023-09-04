@@ -1,0 +1,20 @@
+<div class="formpage-container">
+    <form formGroup="cosmicForm" ngSubmit="saveFormData()">
+        <h1>Please login!</h1>
+        <div class="text-container">
+            <label>Username: </label>
+            <input type="text" formControlName="usernameText">
+        </div>
+        <br>
+        <div class="text-container">
+            <label>Password: </label>
+            <input type="password" formControlName="passwordText">
+        </div>
+        <br>
+        <div class="text-container">
+            <label>Remember Me </label>
+            <input type="radio" formControlName="rememberRadio">
+        </div>
+        <br>
+    </form>
+</div>
